@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#8a94a6" />
+      </marker>
+      <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+        <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1f2933" flood-opacity="0.12"/>
+      </filter>
+    </defs>
+  <style>
+    @font-face { font-family: InterFallback; src: local("Arial"); }
+    .title { font: 700 34px InterFallback, Arial, sans-serif; fill: #1f2933; }
+    .subtitle { font: 400 17px InterFallback, Arial, sans-serif; fill: #5d6875; }
+    .label { font: 700 17px InterFallback, Arial, sans-serif; fill: #1f2933; }
+    .sub { font: 400 13px InterFallback, Arial, sans-serif; fill: #5d6875; }
+    .edge { font: 600 13px InterFallback, Arial, sans-serif; fill: #5d6875; paint-order: stroke; stroke: #f7f4ef; stroke-width: 5px; }
+    .band { font: 800 13px InterFallback, Arial, sans-serif; letter-spacing: 1.2px; fill: #ffffff; }
+  </style>
+  <rect width="100%" height="100%" fill="#f7f4ef"/>
+  <text x="64" y="62" class="title">메뉴 원가 계산 및 리포트 데이터 흐름도</text>
+  <text x="64" y="92" class="subtitle">레시피 항목과 재료 단가를 결합해 원가율, 마진, 차트 데이터를 만드는 흐름</text>
+  
+        
+    <g id="recipes" filter="url(#shadow)">
+      <rect x="70" y="185" width="240" height="88" rx="8" fill="#ffffff" stroke="#2f80ed" stroke-width="2"/>
+      <text text-anchor="middle" class="label"><tspan x="190" y="211">RecipeEditor</tspan></text>
+      <text x="190" y="255" text-anchor="middle" class="sub">메뉴별 재료/수량 입력</text>
+    </g>
+        
+    <g id="recipeApi" filter="url(#shadow)">
+      <rect x="390" y="185" width="260" height="88" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
+      <text text-anchor="middle" class="label"><tspan x="520" y="211">PUT</tspan><tspan x="520" y="229">/api/menus/{id}/recipe</tspan></text>
+      <text x="520" y="255" text-anchor="middle" class="sub">레시피 전체 교체</text>
+    </g>
+        
+    <g id="menuDb" filter="url(#shadow)">
+      <path d="M760,172 C760,156 990,156 990,172 L990,260 C990,276 760,276 760,260 Z" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+      <path d="M760,172 C760,188 990,188 990,172" fill="none" stroke="#7c3aed" stroke-width="2"/>
+      <text x="875" y="204" text-anchor="middle" class="label">Menu</text>
+      <text x="875" y="226" text-anchor="middle" class="sub">판매가/카테고리</text>
+    </g>
+        
+    <g id="recipeDb" filter="url(#shadow)">
+      <path d="M1040,172 C1040,156 1290,156 1290,172 L1290,260 C1290,276 1040,276 1040,260 Z" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+      <path d="M1040,172 C1040,188 1290,188 1290,172" fill="none" stroke="#7c3aed" stroke-width="2"/>
+      <text x="1165" y="204" text-anchor="middle" class="label">RecipeItem</text>
+      <text x="1165" y="226" text-anchor="middle" class="sub">수량/사용 단위</text>
+    </g>
+        
+    <g id="ingredientDb" filter="url(#shadow)">
+      <path d="M900,372 C900,356 1150,356 1150,372 L1150,460 C1150,476 900,476 900,460 Z" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+      <path d="M900,372 C900,388 1150,388 1150,372" fill="none" stroke="#7c3aed" stroke-width="2"/>
+      <text x="1025" y="404" text-anchor="middle" class="label">Ingredient</text>
+      <text x="1025" y="426" text-anchor="middle" class="sub">단가/기준 단위</text>
+    </g>
+        
+    <g id="costApi" filter="url(#shadow)">
+      <rect x="390" y="410" width="260" height="92" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
+      <text text-anchor="middle" class="label"><tspan x="520" y="436">GET /api/cost</tspan></text>
+      <text x="520" y="484" text-anchor="middle" class="sub">메뉴+레시피+재료 조회</text>
+    </g>
+        
+    <g id="unit" filter="url(#shadow)">
+      <rect x="390" y="610" width="260" height="92" rx="8" fill="#ffffff" stroke="#b45309" stroke-width="2"/>
+      <text text-anchor="middle" class="label"><tspan x="520" y="636">calculateRecipeItemCost</tspan></text>
+      <text x="520" y="684" text-anchor="middle" class="sub">단위 호환 및 금액 계산</text>
+    </g>
+        
+    <g id="costPage" filter="url(#shadow)">
+      <rect x="70" y="610" width="240" height="92" rx="8" fill="#ffffff" stroke="#2f80ed" stroke-width="2"/>
+      <text text-anchor="middle" class="label"><tspan x="190" y="636">Cost Page</tspan></text>
+      <text x="190" y="684" text-anchor="middle" class="sub">총원가/원가율/마진</text>
+    </g>
+        
+    <g id="reportsApi" filter="url(#shadow)">
+      <rect x="760" y="610" width="250" height="92" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
+      <text text-anchor="middle" class="label"><tspan x="885" y="636">GET /api/reports</tspan></text>
+      <text x="885" y="684" text-anchor="middle" class="sub">순위/비중/추이 집계</text>
+    </g>
+        
+    <g id="charts" filter="url(#shadow)">
+      <rect x="1060" y="610" width="240" height="92" rx="8" fill="#ffffff" stroke="#2f80ed" stroke-width="2"/>
+      <text text-anchor="middle" class="label"><tspan x="1180" y="636">Reports Page</tspan></text>
+      <text x="1180" y="684" text-anchor="middle" class="sub">Recharts 시각화</text>
+    </g>
+        
+    <path d="M310,229 L390,229" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="350" y="221" text-anchor="middle" class="edge">레시피 저장</text>
+        
+    <path d="M650,229 L760,216" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="705" y="214.5" text-anchor="middle" class="edge">메뉴 확인</text>
+        
+    <path d="M650,246 L1040,216" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="845" y="223" text-anchor="middle" class="edge">항목 재생성</text>
+        
+    <path d="M520,410 L900,416" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="710" y="405" text-anchor="middle" class="edge">include ingredient</text>
+        
+    <path d="M900,386 C850,310 930,270 990,216" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="945" y="321" text-anchor="middle" class="edge">관계 조회</text>
+        
+    <path d="M520,502 L520,610" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="520" y="548" text-anchor="middle" class="edge">계산 대상</text>
+        
+    <path d="M390,656 L310,656" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="350" y="648" text-anchor="middle" class="edge">계산 결과</text>
+        
+    <path d="M650,656 L760,656" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="705" y="648" text-anchor="middle" class="edge">같은 계산 로직</text>
+        
+    <path d="M1010,656 L1060,656" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="1035" y="648" text-anchor="middle" class="edge">차트 데이터</text>
+        
+    <path d="M1010,610 C1110,560 1190,500 1150,416" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="1025" y="533" text-anchor="middle" class="edge">가격 이력/재료 비중</text>
+      
+</svg>

@@ -1,0 +1,45 @@
+{
+  "name": "foodcost",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "start:aws": "next start -H 0.0.0.0 -p 3000",
+    "lint": "next lint",
+    "seed": "npx tsx prisma/seed.ts",
+    "seed:baekban": "npx tsx prisma/seed-baekban.ts"
+  },
+  "prisma": {
+    "seed": "npx tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-textract": "^3.1084.0",
+    "@prisma/client": "^5.22.0",
+    "bcryptjs": "^2.4.3",
+    "lucide-react": "^0.468.0",
+    "next": "14.2.35",
+    "next-auth": "^4.24.11",
+    "openai": "^4.78.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "recharts": "^2.15.0",
+    "sharp": "^0.35.3",
+    "zod": "^3.24.1",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.35",
+    "postcss": "^8",
+    "prisma": "^5.22.0",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.23.0",
+    "typescript": "^5"
+  }
+}

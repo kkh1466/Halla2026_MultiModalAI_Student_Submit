@@ -1,0 +1,6 @@
+  ▲ Next.js 14.2.15
+  - Environments: .env.local, .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...

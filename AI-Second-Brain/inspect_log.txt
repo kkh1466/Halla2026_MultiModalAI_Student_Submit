@@ -1,0 +1,32 @@
+Vercel CLI 54.20.0 (Node.js 24.18.0)
+Fetching deployment "ai-second-brain-atvrm4nib-match-mind1.vercel.app" in match-mind1
+> Fetched deployment "ai-second-brain-atvrm4nib-match-mind1.vercel.app" in match-mind1 [583ms]
+
+General
+
+id		dpl_Fn169kuaB77Y8Na4Z9UqAPjre4pQ
+name	ai-second-brain
+target	production
+status	● Ready
+url		https://ai-second-brain-atvrm4nib-match-mind1.vercel.app
+created	Fri Jul 10 2026 15:18:55 GMT+0900 (한국 표준시) [3m ago]
+
+
+Aliases
+
+╶ https://ai-second-brain-ochre.vercel.app
+    ╶ https://ai-second-brain-match-mind1.vercel.app
+    ╶ https://ai-second-brain-choejinu135-1072-match-mind1.vercel.app
+    
+
+Builds
+
+┌ .        [0ms]
+    ├── λ index (7.96MB) [iad1]
+    ├── λ _not-found (7.96MB) [iad1]
+    ├── λ _not-found.rsc (7.96MB) [iad1]
+    ├── λ index.rsc (7.96MB) [iad1]
+    ├── λ api/auth/[...nextauth] (8.6MB) [iad1]
+    └── 33 output items hidden
+    
+

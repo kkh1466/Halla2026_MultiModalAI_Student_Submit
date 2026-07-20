@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#8a94a6" />
+      </marker>
+      <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+        <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1f2933" flood-opacity="0.12"/>
+      </filter>
+    </defs>
+  <style>
+    @font-face { font-family: InterFallback; src: local("Arial"); }
+    .title { font: 700 34px InterFallback, Arial, sans-serif; fill: #1f2933; }
+    .subtitle { font: 400 17px InterFallback, Arial, sans-serif; fill: #5d6875; }
+    .label { font: 700 17px InterFallback, Arial, sans-serif; fill: #1f2933; }
+    .sub { font: 400 13px InterFallback, Arial, sans-serif; fill: #5d6875; }
+    .edge { font: 600 13px InterFallback, Arial, sans-serif; fill: #5d6875; paint-order: stroke; stroke: #f7f4ef; stroke-width: 5px; }
+    .band { font: 800 13px InterFallback, Arial, sans-serif; letter-spacing: 1.2px; fill: #ffffff; }
+  </style>
+  <rect width="100%" height="100%" fill="#f7f4ef"/>
+  <text x="64" y="62" class="title">데이터 모델 관계 흐름도</text>
+  <text x="64" y="92" class="subtitle">사용자 소유 데이터, 레시피 연결, 가격 이력의 관계</text>
+  
+        
+    <g id="user" filter="url(#shadow)">
+      <path d="M110,232 C110,216 360,216 360,232 L360,326 C360,342 110,342 110,326 Z" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+      <path d="M110,232 C110,248 360,248 360,232" fill="none" stroke="#7c3aed" stroke-width="2"/>
+      <text x="235" y="264" text-anchor="middle" class="label">User</text>
+      <text x="235" y="286" text-anchor="middle" class="sub">email, name, provider</text>
+    </g>
+        
+    <g id="ingredients" filter="url(#shadow)">
+      <path d="M520,152 C520,136 790,136 790,152 L790,256 C790,272 520,272 520,256 Z" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+      <path d="M520,152 C520,168 790,168 790,152" fill="none" stroke="#7c3aed" stroke-width="2"/>
+      <text x="655" y="184" text-anchor="middle" class="label">Ingredient</text>
+      <text x="655" y="206" text-anchor="middle" class="sub">name, unit, pricePerUnit</text>
+    </g>
+        
+    <g id="menus" filter="url(#shadow)">
+      <path d="M520,432 C520,416 790,416 790,432 L790,536 C790,552 520,552 520,536 Z" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+      <path d="M520,432 C520,448 790,448 790,432" fill="none" stroke="#7c3aed" stroke-width="2"/>
+      <text x="655" y="464" text-anchor="middle" class="label">Menu</text>
+      <text x="655" y="486" text-anchor="middle" class="sub">name, category, sellingPrice</text>
+    </g>
+        
+    <g id="history" filter="url(#shadow)">
+      <path d="M990,132 C990,116 1260,116 1260,132 L1260,236 C1260,252 990,252 990,236 Z" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+      <path d="M990,132 C990,148 1260,148 1260,132" fill="none" stroke="#7c3aed" stroke-width="2"/>
+      <text x="1125" y="164" text-anchor="middle" class="label">IngredientPriceHistory</text>
+      <text x="1125" y="186" text-anchor="middle" class="sub">price, changedAt</text>
+    </g>
+        
+    <g id="recipe" filter="url(#shadow)">
+      <path d="M990,432 C990,416 1260,416 1260,432 L1260,536 C1260,552 990,552 990,536 Z" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+      <path d="M990,432 C990,448 1260,448 1260,432" fill="none" stroke="#7c3aed" stroke-width="2"/>
+      <text x="1125" y="464" text-anchor="middle" class="label">RecipeItem</text>
+      <text x="1125" y="486" text-anchor="middle" class="sub">quantity, unit</text>
+    </g>
+        
+    <g id="auth" filter="url(#shadow)">
+      <rect x="110" y="520" width="250" height="92" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
+      <text text-anchor="middle" class="label"><tspan x="235" y="546">인증 경계</tspan></text>
+      <text x="235" y="594" text-anchor="middle" class="sub">모든 조회는 userId로 제한</text>
+    </g>
+        
+    <g id="delete" filter="url(#shadow)">
+      <rect x="520" y="660" width="270" height="92" rx="8" fill="#ffffff" stroke="#b45309" stroke-width="2"/>
+      <text text-anchor="middle" class="label"><tspan x="655" y="686">Cascade / Guard</tspan></text>
+      <text x="655" y="734" text-anchor="middle" class="sub">메뉴 삭제는 recipe 삭제, 사용 중 재료 삭제 제한</text>
+    </g>
+        
+    <path d="M360,260 L520,196" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="440" y="220" text-anchor="middle" class="edge">1:N</text>
+        
+    <path d="M360,302 L520,476" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="440" y="381" text-anchor="middle" class="edge">1:N</text>
+        
+    <path d="M790,196 L990,184" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="890" y="182" text-anchor="middle" class="edge">1:N 가격 변경</text>
+        
+    <path d="M790,476 L990,476" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="890" y="468" text-anchor="middle" class="edge">1:N 레시피 구성</text>
+        
+    <path d="M990,512 C910,395 870,300 790,232" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="890" y="364" text-anchor="middle" class="edge">N:1 재료 참조</text>
+        
+    <path d="M235,520 L235,338" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="235" y="421" text-anchor="middle" class="edge">세션 사용자</text>
+        
+    <path d="M655,548 L655,660" fill="none" stroke="#8a94a6" stroke-width="2.2" marker-end="url(#arrow)"/>
+    <text x="655" y="596" text-anchor="middle" class="edge">삭제 규칙</text>
+        <text x="960" y="320" class="subtitle">RecipeItem은 Menu와 Ingredient를 연결합니다.</text>
+        <text x="960" y="350" class="subtitle">원가 = 수량 x 재료 단가(단위 변환 적용)</text>
+      
+</svg>

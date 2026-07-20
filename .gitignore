@@ -1,0 +1,5 @@
+# Local environment files (API keys / secrets)
+.env
+.env.*
+!.env.example
+!.env.local.example

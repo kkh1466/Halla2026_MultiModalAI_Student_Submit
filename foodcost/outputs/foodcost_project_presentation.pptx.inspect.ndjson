@@ -1,0 +1,211 @@
+{"kind":"deck","id":"pr/c44cc2","name":"Deck"}
+{"kind":"layout","layoutId":"4da60d59-8601-463d-b66f-5a1f6eb711f5","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"1a3b40be-dc0b-46cf-abea-41b972c9a979","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/cqfpos","slide":1,"title":"AI 기반","textShapes":4}
+{"kind":"shape","id":"sh/t0zed0re","slide":1,"bbox":[0,0,575,720]}
+{"kind":"textbox","id":"sh/szqxkva9","slide":1,"text":"AI 기반\n푸드코스트\n자동계산 서비스","textPreview":"AI 기반 | 푸드코스트 | 자동계산 서비스","textChars":20,"textLines":3,"bbox":[58,94,460,260]}
+{"kind":"textbox","id":"sh/f21wfq9k","slide":1,"text":"영수증과 CSV를 식재료 데이터로 바꾸고,\n레시피 기반 원가율과 마진을 바로 보여주는\n소상공인용 원가 관리 웹 서비스","textPreview":"영수증과 CSV를 식재료 데이터로 바꾸고, | 레시피 기반 원가율과 마진을 바로 보여주는 | 소상공인용 원가 관리 웹 서비스","textChars":65,"textLines":3,"bbox":[62,390,430,104]}
+{"kind":"textbox","id":"sh/u18fmlsz","slide":1,"text":"프로젝트 발표","textPreview":"프로젝트 발표","textChars":7,"textLines":1,"bbox":[64,54,180,28]}
+{"kind":"textbox","id":"sh/hojyh0rq","slide":1,"text":"FoodCost AI","textPreview":"FoodCost AI","textChars":11,"textLines":1,"bbox":[64,610,240,32]}
+{"kind":"image","id":"im/zmh47ul0","slide":1,"name":"","alt":"Restaurant owner reviewing an AI food cost dashboard","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/cqfpos","slide":1,"text":""}
+{"kind":"slide","id":"sl/6trmva","slide":2,"title":"문제는 입력 부담과 원가 판단의 지연입니다","textShapes":20}
+{"kind":"textbox","id":"sh/07ydsnyl","slide":2,"text":"문제는 입력 부담과 원가 판단의 지연입니다","textPreview":"문제는 입력 부담과 원가 판단의 지연입니다","textChars":23,"textLines":1,"bbox":[58,42,1060,78]}
+{"kind":"textbox","id":"sh/z6pczih0","slide":2,"text":"외식업 사장은 매입 자료, 레시피, 판매가를 함께 봐야 하지만 이 과정이 대부분 수작업입니다.","textPreview":"외식업 사장은 매입 자료, 레시피, 판매가를 함께 봐야 하지만 이 과정이 대부분 수작업입니다.","textChars":52,"textLines":1,"bbox":[60,116,930,44]}
+{"kind":"textbox","id":"sh/y5gvqdgf","slide":2,"text":"FoodCost AI","textPreview":"FoodCost AI","textChars":11,"textLines":1,"bbox":[1114,54,110,28]}
+{"kind":"textbox","id":"sh/9wru5sf2","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[80,222,26,28]}
+{"kind":"textbox","id":"sh/8vidw7yh","slide":2,"text":"영수증·거래명세서의 품목과 단가를 직접 옮겨 적어야 함","textPreview":"영수증·거래명세서의 품목과 단가를 직접 옮겨 적어야 함","textChars":30,"textLines":1,"bbox":[112,220,528,38]}
+{"kind":"textbox","id":"sh/nu9c32xw","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[80,274,26,28]}
+{"kind":"textbox","id":"sh/mt0vuxgr","slide":2,"text":"식재료 가격 변동이 메뉴 원가율에 반영되기까지 시간이 걸림","textPreview":"식재료 가격 변동이 메뉴 원가율에 반영되기까지 시간이 걸림","textChars":32,"textLines":1,"bbox":[112,272,528,38]}
+{"kind":"textbox","id":"sh/p0nut8zy","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[80,326,26,28]}
+{"kind":"textbox","id":"sh/ozetk3yd","slide":2,"text":"어떤 메뉴가 30% 기준을 넘는지 즉시 판단하기 어려움","textPreview":"어떤 메뉴가 30% 기준을 넘는지 즉시 판단하기 어려움","textChars":30,"textLines":1,"bbox":[112,324,528,38]}
+{"kind":"textbox","id":"sh/ytwjmdc7","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[80,378,26,28]}
+{"kind":"textbox","id":"sh/zu5kfids","slide":2,"text":"소규모 매장일수록 별도 ERP 없이 엑셀과 기억에 의존함","textPreview":"소규모 매장일수록 별도 ERP 없이 엑셀과 기억에 의존함","textChars":31,"textLines":1,"bbox":[112,376,528,38]}
+{"kind":"shape","id":"sh/0ve1onud","slide":2,"bbox":[720,210,210,128]}
+{"kind":"textbox","id":"sh/lw72h8vi","slide":2,"text":"원가율","textPreview":"원가율","textChars":3,"textLines":1,"bbox":[744,232,162,46]}
+{"kind":"textbox","id":"sh/mxgjqdc3","slide":2,"text":"판매가 대비 식재료 비용","textPreview":"판매가 대비 식재료 비용","textChars":13,"textLines":1,"bbox":[744,284,162,38]}
+{"kind":"shape","id":"sh/nypkjido","slide":2,"bbox":[960,210,210,128]}
+{"kind":"textbox","id":"sh/8zy1snu9","slide":2,"text":"마진","textPreview":"마진","textChars":2,"textLines":1,"bbox":[984,232,162,46]}
+{"kind":"textbox","id":"sh/9072lsvu","slide":2,"text":"판매가 - 총 원가","textPreview":"판매가 - 총 원가","textChars":10,"textLines":1,"bbox":[984,284,162,38]}
+{"kind":"shape","id":"sh/a1gjuxcf","slide":2,"bbox":[720,370,210,128]}
+{"kind":"textbox","id":"sh/v2pkn2t0","slide":2,"text":"30%","textPreview":"30%","textChars":3,"textLines":1,"bbox":[744,392,162,46]}
+{"kind":"textbox","id":"sh/7q90b29s","slide":2,"text":"주의 메뉴 기준선","textPreview":"주의 메뉴 기준선","textChars":9,"textLines":1,"bbox":[744,444,162,38]}
+{"kind":"shape","id":"sh/650jixsn","slide":2,"bbox":[960,370,210,128]}
+{"kind":"textbox","id":"sh/tsridcry","slide":2,"text":"40%+","textPreview":"40%+","textChars":4,"textLines":1,"bbox":[984,392,162,46]}
+{"kind":"textbox","id":"sh/sri1k7ad","slide":2,"text":"위험 메뉴 기준선","textPreview":"위험 메뉴 기준선","textChars":9,"textLines":1,"bbox":[984,444,162,38]}
+{"kind":"shape","id":"sh/j2p07i9w","slide":2,"bbox":[58,668,1080,1]}
+{"kind":"textbox","id":"sh/i1gzexsb","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,650,64,32]}
+{"kind":"notes","id":"nt/6trmva","slide":2,"text":""}
+{"kind":"slide","id":"sl/sbtop7","slide":3,"title":"기획의 초점은 ‘입력 자동화 → 원가 의사결정’입니다","textShapes":18}
+{"kind":"textbox","id":"sh/loz6t47m","slide":3,"text":"기획의 초점은 ‘입력 자동화 → 원가 의사결정’입니다","textPreview":"기획의 초점은 ‘입력 자동화 → 원가 의사결정’입니다","textChars":29,"textLines":1,"bbox":[58,42,1060,78]}
+{"kind":"textbox","id":"sh/ylony9ov","slide":3,"text":"사용자가 데이터를 넣는 순간부터 메뉴별 판단 지표까지 이어지는 하나의 업무 흐름을 만들었습니다.","textPreview":"사용자가 데이터를 넣는 순간부터 메뉴별 판단 지표까지 이어지는 하나의 업무 흐름을 만들었습니다.","textChars":53,"textLines":1,"bbox":[60,116,930,44]}
+{"kind":"textbox","id":"sh/jmxorupg","slide":3,"text":"FoodCost AI","textPreview":"FoodCost AI","textChars":11,"textLines":1,"bbox":[1114,54,110,28]}
+{"kind":"shape","id":"sh/8bq54j6x","slide":3,"bbox":[78,230,230,118]}
+{"kind":"shape","id":"sh/tcz6xo7i","slide":3,"bbox":[78,230,8,118]}
+{"kind":"textbox","id":"sh/6p8n29o7","slide":3,"text":"1. 매입 자료 입력","textPreview":"1. 매입 자료 입력","textChars":11,"textLines":1,"bbox":[100,248,188,34]}
+{"kind":"textbox","id":"sh/7ahoveps","slide":3,"text":"영수증 이미지 또는 CSV 파일 업로드","textPreview":"영수증 이미지 또는 CSV 파일 업로드","textChars":21,"textLines":1,"bbox":[100,288,188,46]}
+{"kind":"shape","id":"sh/ofm5sf6t","slide":3,"bbox":[330,230,230,118]}
+{"kind":"shape","id":"sh/9gvmlk7e","slide":3,"bbox":[330,230,8,118]}
+{"kind":"textbox","id":"sh/hkr2lgf6","slide":3,"text":"2. 식재료 정리","textPreview":"2. 식재료 정리","textChars":9,"textLines":1,"bbox":[352,248,188,34]}
+{"kind":"textbox","id":"sh/gji1sbel","slide":3,"text":"품목명, 단위, 단가, 카테고리 추출","textPreview":"품목명, 단위, 단가, 카테고리 추출","textChars":20,"textLines":1,"bbox":[352,288,188,46]}
+{"kind":"shape","id":"sh/fi9kj6x0","slide":3,"bbox":[582,230,230,118]}
+{"kind":"shape","id":"sh/uh0jq1wf","slide":3,"bbox":[582,230,8,118]}
+{"kind":"textbox","id":"sh/pob2p0f2","slide":3,"text":"3. 레시피 연결","textPreview":"3. 레시피 연결","textChars":9,"textLines":1,"bbox":[604,248,188,34]}
+{"kind":"textbox","id":"sh/4n2lwveh","slide":3,"text":"메뉴별 식재료 사용량과 판매가 입력","textPreview":"메뉴별 식재료 사용량과 판매가 입력","textChars":19,"textLines":1,"bbox":[604,288,188,46]}
+{"kind":"shape","id":"sh/3m9knqxw","slide":3,"bbox":[834,230,230,118]}
+{"kind":"shape","id":"sh/2l0julwr","slide":3,"bbox":[834,230,8,118]}
+{"kind":"textbox","id":"sh/dsb2t0fe","slide":3,"text":"4. 원가 계산","textPreview":"4. 원가 계산","textChars":8,"textLines":1,"bbox":[856,248,188,34]}
+{"kind":"textbox","id":"sh/cr2l0vet","slide":3,"text":"단위 변환 후 총 원가, 원가율, 마진 산출","textPreview":"단위 변환 후 총 원가, 원가율, 마진 산출","textChars":24,"textLines":1,"bbox":[856,288,188,46]}
+{"kind":"shape","id":"sh/cva5wzmp","slide":3,"bbox":[330,410,482,118]}
+{"kind":"shape","id":"sh/xwjmp4na","slide":3,"bbox":[330,410,8,118]}
+{"kind":"textbox","id":"sh/atsnu94z","slide":3,"text":"5. 리포트 확인","textPreview":"5. 리포트 확인","textChars":9,"textLines":1,"bbox":[352,428,440,34]}
+{"kind":"textbox","id":"sh/bu14ne5k","slide":3,"text":"위험 메뉴와 식재료 비용 비중 시각화","textPreview":"위험 메뉴와 식재료 비용 비중 시각화","textChars":20,"textLines":1,"bbox":[352,468,440,46]}
+{"kind":"textbox","id":"sh/kzu50jm1","slide":3,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[300,262,32,36]}
+{"kind":"textbox","id":"sh/lk3mtonm","slide":3,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[552,262,32,36]}
+{"kind":"textbox","id":"sh/yxsny94v","slide":3,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[804,262,32,36]}
+{"kind":"textbox","id":"sh/zyl4re5g","slide":3,"text":"핵심 가치: 반복 입력을 줄이고, 가격 변동이 메뉴 손익에 미치는 영향을 빠르게 확인합니다.","textPreview":"핵심 가치: 반복 입력을 줄이고, 가격 변동이 메뉴 손익에 미치는 영향을 빠르게 확인합니다.","textChars":51,"textLines":1,"bbox":[82,590,1020,42]}
+{"kind":"shape","id":"sh/03qlofmx","slide":3,"bbox":[58,668,1080,1]}
+{"kind":"textbox","id":"sh/1ozmhkn2","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,650,64,32]}
+{"kind":"notes","id":"nt/sbtop7","slide":3,"text":""}
+{"kind":"slide","id":"sl/67m3dg","slide":4,"title":"AI 모델은 입력 유형별 역할을 분리해 선정했습니다","textShapes":23}
+{"kind":"textbox","id":"sh/gjyhw3mx","slide":4,"text":"AI 모델은 입력 유형별 역할을 분리해 선정했습니다","textPreview":"AI 모델은 입력 유형별 역할을 분리해 선정했습니다","textChars":28,"textLines":1,"bbox":[58,42,1060,78]}
+{"kind":"textbox","id":"sh/vyp03ylc","slide":4,"text":"이미지 이해, OCR 보조, 텍스트 정규화가 각각 다른 난이도를 갖기 때문입니다.","textPreview":"이미지 이해, OCR 보조, 텍스트 정규화가 각각 다른 난이도를 갖기 때문입니다.","textChars":45,"textLines":1,"bbox":[60,116,930,44]}
+{"kind":"textbox","id":"sh/uxgzud4r","slide":4,"text":"FoodCost AI","textPreview":"FoodCost AI","textChars":11,"textLines":1,"bbox":[1114,54,110,28]}
+{"kind":"shape","id":"sh/tw7i183m","slide":4,"bbox":[76,190,520,380]}
+{"kind":"textbox","id":"sh/8vyhs3m1","slide":4,"text":"AI·문서 인식","textPreview":"AI·문서 인식","textChars":8,"textLines":1,"bbox":[110,220,420,36]}
+{"kind":"textbox","id":"sh/7up0zylg","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[110,292,26,28]}
+{"kind":"textbox","id":"sh/6tgzqt4v","slide":4,"text":"OpenAI Vision 모델: 영수증 이미지에서 품목·수량·금액 추출","textPreview":"OpenAI Vision 모델: 영수증 이미지에서 품목·수량·금액 추출","textChars":39,"textLines":1,"bbox":[142,290,388,38]}
+{"kind":"textbox","id":"sh/dsbids3q","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[110,344,26,28]}
+{"kind":"textbox","id":"sh/cr214nm5","slide":4,"text":"AWS Textract: OCR 보조 텍스트로 숫자와 행 구조 보강","textPreview":"AWS Textract: OCR 보조 텍스트로 숫자와 행 구조 보강","textChars":37,"textLines":1,"bbox":[142,342,388,38]}
+{"kind":"textbox","id":"sh/2h03utkf","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[110,396,26,28]}
+{"kind":"textbox","id":"sh/3i94ny10","slide":4,"text":"gpt-4o-mini: CSV·텍스트 기반 식재료 정보 정리","textPreview":"gpt-4o-mini: CSV·텍스트 기반 식재료 정보 정리","textChars":33,"textLines":1,"bbox":[142,394,388,38]}
+{"kind":"textbox","id":"sh/ojilw32l","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[110,448,26,28]}
+{"kind":"textbox","id":"sh/pkrmp8j6","slide":4,"text":"JSON Schema 응답: 후처리 가능한 구조화 결과 확보","textPreview":"JSON Schema 응답: 후처리 가능한 구조화 결과 확보","textChars":33,"textLines":1,"bbox":[142,446,388,38]}
+{"kind":"shape","id":"sh/etg3qtkj","slide":4,"bbox":[676,190,520,380]}
+{"kind":"textbox","id":"sh/fup4jy14","slide":4,"text":"웹·데이터 기술","textPreview":"웹·데이터 기술","textChars":8,"textLines":1,"bbox":[710,220,420,36]}
+{"kind":"textbox","id":"sh/gvils32p","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[710,292,26,28]}
+{"kind":"textbox","id":"sh/1wrml8ja","slide":4,"text":"Next.js 14 App Router와 TypeScript로 풀스택 구현","textPreview":"Next.js 14 App Router와 TypeScript로 풀스택 구현","textChars":41,"textLines":1,"bbox":[742,290,388,38]}
+{"kind":"textbox","id":"sh/ypkn2xkn","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[710,344,26,28]}
+{"kind":"textbox","id":"sh/zqt4vi18","slide":4,"text":"NextAuth와 bcrypt 기반 사용자 인증 및 데이터 격리","textPreview":"NextAuth와 bcrypt 기반 사용자 인증 및 데이터 격리","textChars":35,"textLines":1,"bbox":[742,342,388,38]}
+{"kind":"textbox","id":"sh/bi1s7qdo","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[710,396,26,28]}
+{"kind":"textbox","id":"sh/ahsrylw3","slide":4,"text":"Prisma + SQLite로 메뉴·레시피·가격 이력 저장","textPreview":"Prisma + SQLite로 메뉴·레시피·가격 이력 저장","textChars":32,"textLines":1,"bbox":[742,394,388,38]}
+{"kind":"textbox","id":"sh/xk3a90ve","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[710,448,26,28]}
+{"kind":"textbox","id":"sh/wju90vet","slide":4,"text":"Recharts로 원가율, 비용 비중, 가격 추이를 시각화","textPreview":"Recharts로 원가율, 비용 비중, 가격 추이를 시각화","textChars":32,"textLines":1,"bbox":[742,446,388,38]}
+{"kind":"textbox","id":"sh/jmlsbqdk","slide":4,"text":"근거: package.json, src/lib/openai.ts, prisma/schema.prisma","textPreview":"근거: package.json, src/lib/openai.ts, prisma/schema.prisma","textChars":57,"textLines":1,"bbox":[78,620,900,24]}
+{"kind":"shape","id":"sh/ilcr25wz","slide":4,"bbox":[58,668,1080,1]}
+{"kind":"textbox","id":"sh/5o3ad0vq","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1160,650,64,32]}
+{"kind":"notes","id":"nt/67m3dg","slide":4,"text":""}
+{"kind":"slide","id":"sl/knrmis","slide":5,"title":"멀티모달 파이프라인은 검토 가능한 데이터로 끝납니다","textShapes":15}
+{"kind":"textbox","id":"sh/ml07q1k3","slide":5,"text":"멀티모달 파이프라인은 검토 가능한 데이터로 끝납니다","textPreview":"멀티모달 파이프라인은 검토 가능한 데이터로 끝납니다","textChars":28,"textLines":1,"bbox":[58,42,1060,78]}
+{"kind":"textbox","id":"sh/9obq1gju","slide":5,"text":"이미지·CSV 입력을 바로 DB에 넣지 않고, 사용자가 선택·수정할 수 있는 리뷰 단계를 둔 점이 구현 완성도의 핵심입니다.","textPreview":"이미지·CSV 입력을 바로 DB에 넣지 않고, 사용자가 선택·수정할 수 있는 리뷰 단계를 둔 점이 구현 완성도의 핵심입니다.","textChars":69,"textLines":1,"bbox":[60,116,930,44]}
+{"kind":"textbox","id":"sh/on29sb29","slide":5,"text":"FoodCost AI","textPreview":"FoodCost AI","textChars":11,"textLines":1,"bbox":[1114,54,110,28]}
+{"kind":"shape","id":"sh/bqt83q10","slide":5,"bbox":[80,218,220,118]}
+{"kind":"shape","id":"sh/apkrulkf","slide":5,"bbox":[80,218,8,118]}
+{"kind":"textbox","id":"sh/xsbq50jq","slide":5,"text":"이미지/CSV 업로드","textPreview":"이미지/CSV 업로드","textChars":11,"textLines":1,"bbox":[102,236,178,34]}
+{"kind":"textbox","id":"sh/wr29wv25","slide":5,"text":"10MB 이하 파일, JPG/PNG/WebP/CSV 지원","textPreview":"10MB 이하 파일, JPG/PNG/WebP/CSV 지원","textChars":31,"textLines":1,"bbox":[102,276,178,46]}
+{"kind":"shape","id":"sh/jud87q1w","slide":5,"bbox":[326,218,220,118]}
+{"kind":"shape","id":"sh/yt4rylkb","slide":5,"bbox":[326,218,8,118]}
+{"kind":"textbox","id":"sh/8vm5k76p","slide":5,"text":"AI 추출","textPreview":"AI 추출","textChars":5,"textLines":1,"bbox":[348,236,178,34]}
+{"kind":"textbox","id":"sh/9wv6dc7a","slide":5,"text":"품목명·수량·단가·총액을 구조화","textPreview":"품목명·수량·단가·총액을 구조화","textChars":17,"textLines":1,"bbox":[348,276,178,46]}
+{"kind":"shape","id":"sh/mt4nixoj","slide":5,"bbox":[572,218,220,118]}
+{"kind":"shape","id":"sh/7udob2p4","slide":5,"bbox":[572,218,8,118]}
+{"kind":"textbox","id":"sh/wzmpo761","slide":5,"text":"정규화","textPreview":"정규화","textChars":3,"textLines":1,"bbox":[594,236,178,34]}
+{"kind":"textbox","id":"sh/h0v6hc76","slide":5,"text":"단위 보정, 품목명 정리, 카테고리 분류","textPreview":"단위 보정, 품목명 정리, 카테고리 분류","textChars":22,"textLines":1,"bbox":[594,276,178,46]}
+{"kind":"shape","id":"sh/ux4nmhov","slide":5,"bbox":[818,218,220,118]}
+{"kind":"shape","id":"sh/vydof2pg","slide":5,"bbox":[818,218,8,118]}
+{"kind":"textbox","id":"sh/4n6psr6x","slide":5,"text":"리뷰/선택","textPreview":"리뷰/선택","textChars":5,"textLines":1,"bbox":[840,236,178,34]}
+{"kind":"textbox","id":"sh/5of6lw7i","slide":5,"text":"테이블에서 품목 선택 및 이름 수정","textPreview":"테이블에서 품목 선택 및 이름 수정","textChars":19,"textLines":1,"bbox":[840,276,178,46]}
+{"kind":"shape","id":"sh/t8repsva","slide":5,"bbox":[449,410,384,118]}
+{"kind":"shape","id":"sh/s7ixgnup","slide":5,"bbox":[449,410,8,118]}
+{"kind":"textbox","id":"sh/r69wnidk","slide":5,"text":"Upsert 저장","textPreview":"Upsert 저장","textChars":9,"textLines":1,"bbox":[471,428,342,34]}
+{"kind":"textbox","id":"sh/650fedcz","slide":5,"text":"신규 식재료 생성 또는 기존 단가 갱신","textPreview":"신규 식재료 생성 또는 기존 단가 갱신","textChars":21,"textLines":1,"bbox":[471,468,342,46]}
+{"kind":"textbox","id":"sh/1wbytsvm","slide":5,"text":"이미지 모델의 추론 결과를 그대로 믿기보다, 업무 데이터로 쓰기 전 사람이 확인하는 UX를 설계했습니다.","textPreview":"이미지 모델의 추론 결과를 그대로 믿기보다, 업무 데이터로 쓰기 전 사람이 확인하는 UX를 설계했습니다.","textChars":58,"textLines":1,"bbox":[90,590,980,44]}
+{"kind":"shape","id":"sh/gb2xk7u1","slide":5,"bbox":[58,668,1080,1]}
+{"kind":"textbox","id":"sh/fatwr2dg","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1160,650,64,32]}
+{"kind":"notes","id":"nt/knrmis","slide":5,"text":""}
+{"kind":"slide","id":"sl/4hy98z","slide":6,"title":"구현은 핵심 업무 화면과 API까지 연결되어 있습니다","textShapes":23}
+{"kind":"textbox","id":"sh/udgbi947","slide":6,"text":"구현은 핵심 업무 화면과 API까지 연결되어 있습니다","textPreview":"구현은 핵심 업무 화면과 API까지 연결되어 있습니다","textChars":29,"textLines":1,"bbox":[58,42,1060,78]}
+{"kind":"textbox","id":"sh/hgrud43y","slide":6,"text":"단순 데모가 아니라 인증, CRUD, 원가 계산, 리포트까지 한 서비스 흐름으로 구성했습니다.","textPreview":"단순 데모가 아니라 인증, CRUD, 원가 계산, 리포트까지 한 서비스 흐름으로 구성했습니다.","textChars":52,"textLines":1,"bbox":[60,116,930,44]}
+{"kind":"textbox","id":"sh/wfitkzmd","slide":6,"text":"FoodCost AI","textPreview":"FoodCost AI","textChars":11,"textLines":1,"bbox":[1114,54,110,28]}
+{"kind":"shape","id":"sh/7qps7ulw","slide":6,"bbox":[80,202,1120,58]}
+{"kind":"textbox","id":"sh/mpgbep4b","slide":6,"text":"영역","textPreview":"영역","textChars":2,"textLines":1,"bbox":[98,218,142,28]}
+{"kind":"textbox","id":"sh/9c7a9432","slide":6,"text":"구현 내용","textPreview":"구현 내용","textChars":5,"textLines":1,"bbox":[268,218,532,28]}
+{"kind":"textbox","id":"sh/8bytgzmh","slide":6,"text":"대표 파일","textPreview":"대표 파일","textChars":5,"textLines":1,"bbox":[828,218,362,28]}
+{"kind":"shape","id":"sh/rmtcjyl0","slide":6,"bbox":[80,260,1120,58]}
+{"kind":"textbox","id":"sh/6l0bqt4f","slide":6,"text":"인증","textPreview":"인증","textChars":2,"textLines":1,"bbox":[98,276,142,28]}
+{"kind":"textbox","id":"sh/83y58b6p","slide":6,"text":"회원가입, 로그인, 세션 보호","textPreview":"회원가입, 로그인, 세션 보호","textChars":16,"textLines":1,"bbox":[268,276,532,28]}
+{"kind":"textbox","id":"sh/947mhgna","slide":6,"text":"src/lib/auth.ts","textPreview":"src/lib/auth.ts","textChars":15,"textLines":1,"bbox":[828,276,362,28]}
+{"kind":"shape","id":"sh/m1gn61oj","slide":6,"bbox":[80,318,1120,58]}
+{"kind":"textbox","id":"sh/n2p4f654","slide":6,"text":"식재료","textPreview":"식재료","textChars":3,"textLines":1,"bbox":[98,334,142,28]}
+{"kind":"textbox","id":"sh/0zy54r6t","slide":6,"text":"CRUD, 검색·필터, 업로드 분석","textPreview":"CRUD, 검색·필터, 업로드 분석","textChars":19,"textLines":1,"bbox":[268,334,532,28]}
+{"kind":"textbox","id":"sh/l07mdwne","slide":6,"text":"api/ingredients/*","textPreview":"api/ingredients/*","textChars":17,"textLines":1,"bbox":[828,334,362,28]}
+{"kind":"shape","id":"sh/yxgn2hon","slide":6,"bbox":[80,376,1120,58]}
+{"kind":"textbox","id":"sh/zyp4bm58","slide":6,"text":"레시피/메뉴","textPreview":"레시피/메뉴","textChars":6,"textLines":1,"bbox":[98,392,142,28]}
+{"kind":"textbox","id":"sh/cbe50r6h","slide":6,"text":"메뉴별 판매가와 식재료 사용량 관리","textPreview":"메뉴별 판매가와 식재료 사용량 관리","textChars":19,"textLines":1,"bbox":[268,392,532,28]}
+{"kind":"textbox","id":"sh/dcnm9wn2","slide":6,"text":"api/menus/*","textPreview":"api/menus/*","textChars":11,"textLines":1,"bbox":[828,392,362,28]}
+{"kind":"shape","id":"sh/tgfuhovu","slide":6,"bbox":[80,434,1120,58]}
+{"kind":"textbox","id":"sh/sfmtoju9","slide":6,"text":"원가 계산","textPreview":"원가 계산","textChars":5,"textLines":1,"bbox":[98,450,142,28]}
+{"kind":"textbox","id":"sh/redcvedo","slide":6,"text":"단위 변환, 총 원가, 원가율, 마진","textPreview":"단위 변환, 총 원가, 원가율, 마진","textChars":20,"textLines":1,"bbox":[268,450,532,28]}
+{"kind":"textbox","id":"sh/6t4bm9c3","slide":6,"text":"api/cost, lib/units.ts","textPreview":"api/cost, lib/units.ts","textChars":22,"textLines":1,"bbox":[828,450,362,28]}
+{"kind":"shape","id":"sh/5svut4vi","slide":6,"bbox":[80,492,1120,58]}
+{"kind":"textbox","id":"sh/4rmtkzux","slide":6,"text":"리포트","textPreview":"리포트","textChars":3,"textLines":1,"bbox":[98,508,142,28]}
+{"kind":"textbox","id":"sh/jqdsruds","slide":6,"text":"원가율 순위, 식재료 비중, 가격 추이","textPreview":"원가율 순위, 식재료 비중, 가격 추이","textChars":21,"textLines":1,"bbox":[268,508,532,28]}
+{"kind":"textbox","id":"sh/ip4bi9c7","slide":6,"text":"api/reports","textPreview":"api/reports","textChars":11,"textLines":1,"bbox":[828,508,362,28]}
+{"kind":"textbox","id":"sh/pozup8v2","slide":6,"text":"데이터 모델은 User → Ingredient/Menu → RecipeItem → PriceHistory 관계로, 사용자별 원가 데이터를 분리합니다.","textPreview":"데이터 모델은 User → Ingredient/Menu → RecipeItem → PriceHistory 관계로, 사용자별 원가 데이터를 분리합니다.","textChars":83,"textLines":1,"bbox":[84,600,960,36]}
+{"kind":"shape","id":"sh/on6tw3uh","slide":6,"bbox":[58,668,1080,1]}
+{"kind":"textbox","id":"sh/mt0rq5sz","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1160,650,64,32]}
+{"kind":"notes","id":"nt/4hy98z","slide":6,"text":""}
+{"kind":"slide","id":"sl/giae57","slide":7,"title":"결과 품질은 계산 근거와 시각화로 검증됩니다","textShapes":10}
+{"kind":"textbox","id":"sh/4r2tc3at","slide":7,"text":"결과 품질은 계산 근거와 시각화로 검증됩니다","textPreview":"결과 품질은 계산 근거와 시각화로 검증됩니다","textChars":24,"textLines":1,"bbox":[58,42,1060,78]}
+{"kind":"textbox","id":"sh/3qtsjy98","slide":7,"text":"원가율 기준과 식재료 비중을 명확히 보여주어 실제 매장 운영 판단에 바로 연결됩니다.","textPreview":"원가율 기준과 식재료 비중을 명확히 보여주어 실제 매장 운영 판단에 바로 연결됩니다.","textChars":47,"textLines":1,"bbox":[60,116,930,44]}
+{"kind":"textbox","id":"sh/ipkbatsn","slide":7,"text":"FoodCost AI","textPreview":"FoodCost AI","textChars":11,"textLines":1,"bbox":[1114,54,110,28]}
+{"kind":"shape","id":"sh/gnit8jah","slide":7,"bbox":[694,212,430,84]}
+{"kind":"textbox","id":"sh/v29sfe9c","slide":7,"text":"단위 변환","textPreview":"단위 변환","textChars":5,"textLines":1,"bbox":[724,228,150,28]}
+{"kind":"textbox","id":"sh/u10b69sr","slide":7,"text":"kg↔g, L↔mL 변환 후 레시피 원가 계산","textPreview":"kg↔g, L↔mL 변환 후 레시피 원가 계산","textChars":25,"textLines":1,"bbox":[724,262,360,24]}
+{"kind":"shape","id":"sh/t0rad4r6","slide":7,"bbox":[694,318,430,84]}
+{"kind":"textbox","id":"sh/8zit4jal","slide":7,"text":"가격 이력","textPreview":"가격 이력","textChars":5,"textLines":1,"bbox":[724,334,150,28]}
+{"kind":"textbox","id":"sh/6dwnapgv","slide":7,"text":"단가 변경 시 추이를 리포트에서 확인","textPreview":"단가 변경 시 추이를 리포트에서 확인","textChars":20,"textLines":1,"bbox":[724,368,360,24]}
+{"kind":"shape","id":"sh/re543ah0","slide":7,"bbox":[694,424,430,84]}
+{"kind":"textbox","id":"sh/sfe5cfyl","slide":7,"text":"운영 판단","textPreview":"운영 판단","textChars":5,"textLines":1,"bbox":[724,440,150,28]}
+{"kind":"textbox","id":"sh/tgnm5kz6","slide":7,"text":"30% 초과 메뉴를 우선 개선 대상으로 표시","textPreview":"30% 초과 메뉴를 우선 개선 대상으로 표시","textChars":24,"textLines":1,"bbox":[724,474,360,24]}
+{"kind":"shape","id":"sh/ipc365gj","slide":7,"bbox":[58,668,1080,1]}
+{"kind":"textbox","id":"sh/jal4zah4","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1160,650,64,32]}
+{"kind":"chart","id":"ch/1svmhcbq","slide":7,"name":"","chartType":"bar","bbox":[84,210,520,310]}
+{"kind":"notes","id":"nt/giae57","slide":7,"text":""}
+{"kind":"slide","id":"sl/pgvl2j","slide":8,"title":"평가지표별 근거가 서비스 안에 직접 대응됩니다","textShapes":12}
+{"kind":"textbox","id":"sh/redwve1c","slide":8,"text":"평가지표별 근거가 서비스 안에 직접 대응됩니다","textPreview":"평가지표별 근거가 서비스 안에 직접 대응됩니다","textChars":25,"textLines":1,"bbox":[58,42,1060,78]}
+{"kind":"textbox","id":"sh/sfmxozix","slide":8,"text":"발표 심사 기준에 맞춰 기능과 기술 선택의 이유를 한눈에 정리했습니다.","textPreview":"발표 심사 기준에 맞춰 기능과 기술 선택의 이유를 한눈에 정리했습니다.","textChars":39,"textLines":1,"bbox":[60,116,930,44]}
+{"kind":"textbox","id":"sh/dgvex4ji","slide":8,"text":"FoodCost AI","textPreview":"FoodCost AI","textChars":11,"textLines":1,"bbox":[1114,54,110,28]}
+{"kind":"shape","id":"sh/eh4fq903","slide":8,"bbox":[80,190,1110,76]}
+{"kind":"textbox","id":"sh/fidwze1o","slide":8,"text":"1. 주제 적합성 및 기획력","textPreview":"1. 주제 적합성 및 기획력","textChars":15,"textLines":1,"bbox":[110,208,330,34]}
+{"kind":"textbox","id":"sh/0jmxsjit","slide":8,"text":"외식업 원가 관리라는 명확한 현장 문제를 영수증 입력 자동화와 메뉴 손익 판단으로 해결","textPreview":"외식업 원가 관리라는 명확한 현장 문제를 영수증 입력 자동화와 메뉴 손익 판단으로 해결","textChars":48,"textLines":1,"bbox":[470,208,680,40]}
+{"kind":"shape","id":"sh/1kfe1oje","slide":8,"bbox":[80,294,1110,76]}
+{"kind":"textbox","id":"sh/25ofut0z","slide":8,"text":"2. AI 모델 및 기술 선정","textPreview":"2. AI 모델 및 기술 선정","textChars":16,"textLines":1,"bbox":[110,312,330,34]}
+{"kind":"textbox","id":"sh/n6xw3y1k","slide":8,"text":"Vision, Textract, CSV LLM 분석, Prisma/Next.js를 입력 특성에 맞게 분리 적용","textPreview":"Vision, Textract, CSV LLM 분석, Prisma/Next.js를 입력 특성에 맞게 분리 적용","textChars":61,"textLines":1,"bbox":[470,312,680,40]}
+{"kind":"shape","id":"sh/z21gzexc","slide":8,"bbox":[80,398,1110,76]}
+{"kind":"textbox","id":"sh/y1sf69w7","slide":8,"text":"3. 멀티모달 연계 완성도","textPreview":"3. 멀티모달 연계 완성도","textChars":14,"textLines":1,"bbox":[110,416,330,34]}
+{"kind":"textbox","id":"sh/l43y14fi","slide":8,"text":"이미지·CSV 업로드 → AI 추출 → 리뷰 → DB 저장 → 대시보드까지 연결","textPreview":"이미지·CSV 업로드 → AI 추출 → 리뷰 → DB 저장 → 대시보드까지 연결","textChars":44,"textLines":1,"bbox":[470,416,680,40]}
+{"kind":"shape","id":"sh/k3ux8zex","slide":8,"bbox":[80,502,1110,76]}
+{"kind":"textbox","id":"sh/be1wvuxg","slide":8,"text":"4. 결과 품질 및 활용성","textPreview":"4. 결과 품질 및 활용성","textChars":14,"textLines":1,"bbox":[110,520,330,34]}
+{"kind":"textbox","id":"sh/adsf2pwv","slide":8,"text":"원가율, 마진, 위험 메뉴, 식재료 비중, 가격 추이를 실제 운영 지표로 제공","textPreview":"원가율, 마진, 위험 메뉴, 식재료 비중, 가격 추이를 실제 운영 지표로 제공","textChars":43,"textLines":1,"bbox":[470,520,680,40]}
+{"kind":"shape","id":"sh/x0jyx4fm","slide":8,"bbox":[58,668,1080,1]}
+{"kind":"textbox","id":"sh/czax4ze1","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1160,650,64,32]}
+{"kind":"notes","id":"nt/pgvl2j","slide":8,"text":""}
+{"kind":"slide","id":"sl/6l5q42","slide":9,"title":"FoodCost AI는 작은 매장의 원가 감각을 데이터화합니다","textShapes":14}
+{"kind":"textbox","id":"sh/sbqlknq1","slide":9,"text":"FoodCost AI는 작은 매장의 원가 감각을 데이터화합니다","textPreview":"FoodCost AI는 작은 매장의 원가 감각을 데이터화합니다","textChars":34,"textLines":1,"bbox":[58,42,1060,78]}
+{"kind":"textbox","id":"sh/rahkbipg","slide":9,"text":"다음 단계는 정확도 검증과 운영 자동화를 더 깊게 연결하는 것입니다.","textPreview":"다음 단계는 정확도 검증과 운영 자동화를 더 깊게 연결하는 것입니다.","textChars":38,"textLines":1,"bbox":[60,116,930,44]}
+{"kind":"textbox","id":"sh/6983ix8v","slide":9,"text":"FoodCost AI","textPreview":"FoodCost AI","textChars":11,"textLines":1,"bbox":[1114,54,110,28]}
+{"kind":"textbox","id":"sh/10j2hc7i","slide":9,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[100,222,26,28]}
+{"kind":"textbox","id":"sh/gzalo76x","slide":9,"text":"영수증 이미지 인식 정확도 평가 세트 구축","textPreview":"영수증 이미지 인식 정확도 평가 세트 구축","textChars":23,"textLines":1,"bbox":[132,220,688,38]}
+{"kind":"textbox","id":"sh/fy1kf2pc","slide":9,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[100,280,26,28]}
+{"kind":"textbox","id":"sh/exs3mxor","slide":9,"text":"식재료 표준명 사전과 바코드 매핑 확대","textPreview":"식재료 표준명 사전과 바코드 매핑 확대","textChars":21,"textLines":1,"bbox":[132,278,688,38]}
+{"kind":"textbox","id":"sh/h4f2587y","slide":9,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[100,338,26,28]}
+{"kind":"textbox","id":"sh/w361c3qt","slide":9,"text":"가격 변동 알림과 메뉴 가격 조정 추천","textPreview":"가격 변동 알림과 메뉴 가격 조정 추천","textChars":21,"textLines":1,"bbox":[132,336,688,38]}
+{"kind":"textbox","id":"sh/ihkryx4f","slide":9,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[100,396,26,28]}
+{"kind":"textbox","id":"sh/jit8r2l0","slide":9,"text":"클라우드 배포 환경에서 사용자별 데이터 백업 강화","textPreview":"클라우드 배포 환경에서 사용자별 데이터 백업 강화","textChars":27,"textLines":1,"bbox":[132,394,688,38]}
+{"kind":"shape","id":"sh/432907ml","slide":9,"bbox":[870,220,250,260]}
+{"kind":"textbox","id":"sh/54batc36","slide":9,"text":"핵심 메시지","textPreview":"핵심 메시지","textChars":6,"textLines":1,"bbox":[900,250,190,32]}
+{"kind":"textbox","id":"sh/65kr2h4r","slide":9,"text":"입력은 AI가 줄이고,\n판단은 데이터가 빠르게\n도와주는 원가 관리 서비스","textPreview":"입력은 AI가 줄이고, | 판단은 데이터가 빠르게 | 도와주는 원가 관리 서비스","textChars":40,"textLines":3,"bbox":[900,310,190,112]}
+{"kind":"shape","id":"sh/r6tsvmlc","slide":9,"bbox":[58,668,1080,1]}
+{"kind":"textbox","id":"sh/s7m94rmx","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1160,650,64,32]}
+{"kind":"notes","id":"nt/6l5q42","slide":9,"text":""}

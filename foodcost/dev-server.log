@@ -1,0 +1,79 @@
+
+> foodcost@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 1294ms
+ ○ Compiling / ...
+ ✓ Compiled / in 974ms (812 modules)
+ GET / 307 in 2057ms
+ ✓ Compiled /login in 584ms (848 modules)
+ GET /login 200 in 882ms
+ GET / 307 in 189ms
+ ✓ Compiled /src/middleware in 108ms (174 modules)
+ ✓ Compiled /dashboard in 197ms (890 modules)
+ GET /dashboard 200 in 384ms
+ ✓ Compiled /favicon.ico in 93ms (609 modules)
+ ✓ Compiled (640 modules)
+ GET /favicon.ico 200 in 800ms
+ GET /api/dashboard 200 in 826ms
+ GET /api/dashboard 200 in 13ms
+ GET /api/auth/session 200 in 1019ms
+ GET /api/auth/session 200 in 15ms
+ ✓ Compiled /ingredients in 180ms (988 modules)
+ ✓ Compiled /api/ingredients in 106ms (673 modules)
+ GET /api/ingredients? 200 in 258ms
+ GET /api/ingredients? 200 in 11ms
+ ○ Compiling /api/ingredients/upload ...
+ ✓ Compiled /api/ingredients/upload in 779ms (1431 modules)
+ POST /api/ingredients/upload 200 in 13501ms
+ POST /api/ingredients/upload 200 in 14068ms
+ GET /api/auth/session 200 in 23ms
+ ✓ Compiled in 141ms (588 modules)
+ ✓ Compiled /api/auth/[...nextauth] in 139ms (592 modules)
+ GET /api/auth/session 200 in 522ms
+ GET /api/auth/session 200 in 15ms
+ ✓ Compiled in 390ms (931 modules)
+ GET /ingredients?_rsc=1eo8p 200 in 532ms
+ ✓ Compiled in 152ms (917 modules)
+ ✓ Compiled in 75ms (342 modules)
+ GET /ingredients?_rsc=1eo8p 200 in 109ms
+ ✓ Compiled /_not-found in 185ms (920 modules)
+ GET /_next/static/css/app/layout.css?v=1783649383901 404 in 295ms
+ ✓ Compiled in 75ms (344 modules)
+ GET /ingredients?_rsc=1eo8p 200 in 94ms
+ GET /_next/static/css/app/layout.css?v=1783649385483 404 in 29ms
+ ✓ Compiled in 67ms (344 modules)
+ GET /ingredients?_rsc=1eo8p 200 in 22ms
+ GET /_next/static/css/app/layout.css?v=1783649386990 404 in 54ms
+ ✓ Compiled in 232ms (934 modules)
+ ✓ Compiled /api/ingredients in 187ms (628 modules)
+ GET /api/ingredients? 200 in 831ms
+ GET /ingredients?_rsc=1eo8p 200 in 823ms
+ GET /api/ingredients? 200 in 9ms
+ GET /ingredients?_rsc=1eo8p 200 in 22ms
+ ✓ Compiled in 129ms (972 modules)
+ GET /ingredients?_rsc=1eo8p 200 in 60ms
+ ✓ Compiled in 427ms (933 modules)
+ ✓ Compiled in 62ms (343 modules)
+ ✓ Compiled in 71ms (343 modules)
+ ✓ Compiled in 53ms (343 modules)
+ ✓ Compiled in 59ms (343 modules)
+ ✓ Compiled in 60ms (343 modules)
+ ✓ Compiled in 71ms (343 modules)
+ ✓ Compiled in 51ms (343 modules)
+ ✓ Compiled in 64ms (343 modules)
+ ✓ Compiled in 59ms (343 modules)
+ ✓ Compiled in 72ms (343 modules)
+ ✓ Compiled in 219ms (919 modules)
+ ✓ Compiled in 64ms (343 modules)
+ ✓ Compiled in 213ms (919 modules)
+ ✓ Compiled in 118ms (590 modules)
+ ✓ Compiled in 258ms (590 modules)
+ ✓ Compiled in 139ms (590 modules)
+ ✓ Compiled in 525ms (933 modules)
+ ✓ Compiled in 133ms (590 modules)
